@@ -1,3 +1,10 @@
+### REMEMBER TO INSTALL MODULES
+```
+Install-Module -Name Terminal-Icons -Repository PSGallery -Force
+Install-Module -Name PSReadLine -Force
+```
+
+
 ### Installation manual for windows [here](https://ohmyposh.dev/docs/installation/windows)
 
 
