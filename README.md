@@ -11,6 +11,11 @@ Install-Module -Name PSReadLine -Force
 3. Install NerdFont (CaskaydiaCove NFM)
 ```
 
+### (Optional) Inshellsense
+```
+https://github.com/microsoft/inshellisense
+```
+
 
 ### Installation manual for windows [here](https://ohmyposh.dev/docs/installation/windows)
 
