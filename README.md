@@ -4,6 +4,13 @@ Install-Module -Name Terminal-Icons -Repository PSGallery -Force
 Install-Module -Name PSReadLine -Force
 ```
 
+### AND OF COURSE OH-MY-POSH
+```
+1. Install oh-my-posh using winget or mcs store
+2. Set Launch Profile Windows Terminal (Powershell) - Use default Author Theme
+3. Install NerdFont (CaskaydiaCove NFM)
+```
+
 
 ### Installation manual for windows [here](https://ohmyposh.dev/docs/installation/windows)
 
