@@ -14,6 +14,7 @@ Install-Module -Name PSReadLine -Force
 ### (Optional) Inshellsense
 ```
 https://github.com/microsoft/inshellisense
+is init pwsh >> $profile
 ```
 
 
