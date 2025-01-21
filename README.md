@@ -8,9 +8,8 @@ Install-Module -Name PSReadLine -Force
 ```
 1. Install oh-my-posh using winget or mcs store
 2. Set Launch Profile Windows Terminal (Powershell) - Use default Author Theme
-3. Install NerdFont (CaskaydiaCove NFM)
+3. Install NerdFont (CaskaydiaCove NFM - CaskaydiaMono Nerd Font) | MAC is MesloLG Nerd Font
 ```
-
 
 ### Installation manual for windows [here](https://ohmyposh.dev/docs/installation/windows)
 
