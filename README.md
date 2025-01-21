@@ -11,6 +11,17 @@ Install-Module -Name PSReadLine -Force
 3. Install NerdFont (CaskaydiaCove NFM - CaskaydiaMono Nerd Font) | MAC is MesloLG Nerd Font
 ```
 
+### My personal MAC setup with oh-my-zsh
+```
+Get oh-my-zsh, .zshrc will be changed, fix it by adding oh-my-posh back. Comment everything, add plugins.
+
+1. zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+2. zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+
 ### Installation manual for windows [here](https://ohmyposh.dev/docs/installation/windows)
 
 
