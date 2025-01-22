@@ -1,4 +1,7 @@
-eval "$(oh-my-posh init zsh --config '/Users/adv176/Desktop/OMP Config/nordcustom_v.2.omp.json')" 
-# Add .NET to PATH (.net installed using Rider)
-export DOTNET_ROOT="/Users/adv176/.dotnet"
-export PATH="$PATH:$DOTNET_ROOT"
+eval "$(oh-my-posh init zsh --config '/Users/adv176/Desktop/OMP Config/nordcustom_v.2.omp.json')"
+
+# PATH
+# .net
+export PATH="$PATH:/Users/adv176/.dotnet"
+#. adb (android)
+export PATH="$PATH:/Users/adv176/Library/Android/sdk/platform-tools:/Users/adv176/Library/Android/sdk/tools"
