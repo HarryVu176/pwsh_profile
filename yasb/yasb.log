@@ -1,0 +1,534 @@
+2025-05-05 14:19:09,915 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-05-05 14:19:09,915 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\hvu.LBMX\.config\yasb\.env, skipping environment loading.
+2025-05-05 14:19:09,955 [INFO] [MainThread] [root/config.py:61]: Created default config file at C:\Users\hvu.LBMX\.config\yasb\config.yaml
+2025-05-05 14:19:09,980 [INFO] [MainThread] [root/config.py:75]: Created default stylesheet at C:\Users\hvu.LBMX\.config\yasb\styles.css
+2025-05-05 14:19:32,806 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-05-05 14:19:32,806 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-05 14:19:33,916 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-05 14:19:42,005 [ERROR] [MainThread] [root/weather.py:46]: API key or location is missing. Please provide a valid API key and location.
+2025-05-05 14:19:42,036 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-05 14:19:45,069 [ERROR] [MainThread] [root/weather.py:46]: API key or location is missing. Please provide a valid API key and location.
+2025-05-05 14:19:45,248 [ERROR] [MainThread] [root/weather.py:46]: API key or location is missing. Please provide a valid API key and location.
+2025-05-05 14:19:45,381 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\hvu.LBMX\.config\yasb
+2025-05-05 14:19:45,391 [INFO] [Dummy-5] [root/event_listener.py:53]: Created named pipe yasb-859021a1-29dd-11f0-813e-98597a36505a
+2025-05-05 14:19:45,468 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-05 14:19:45,476 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-05 14:22:54,789 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-859021a1-29dd-11f0-813e-98597a36505a
+2025-05-05 14:37:55,857 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-05 14:37:55,960 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-05 14:37:55,961 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-05 14:37:56,048 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-05 14:37:56,061 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-05 14:37:56,062 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-05 14:37:56,071 [ERROR] [Dummy-85] [root/event_service.py:30]: Failed to emit signal <bound PYQT_SIGNAL window_name_change of ActiveWindowWidget object at 0x000001C618BEF890>. Removing link to WinEvent.EventObjectNameChange.
+2025-05-05 14:37:59,015 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-05-05 14:37:59,015 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\hvu.LBMX\.config\yasb\.env, skipping environment loading.
+2025-05-05 14:37:59,062 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-05-05 14:37:59,062 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-05 14:38:00,904 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-05 14:38:07,312 [INFO] [Thread-3 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 14:38:07.312948
+2025-05-05 14:38:07,403 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-05 14:38:07,703 [ERROR] [Thread-3 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 14:38:09,098 [INFO] [Thread-4 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 14:38:09.098301
+2025-05-05 14:38:09,181 [ERROR] [Thread-4 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 14:38:09,636 [INFO] [Thread-5 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 14:38:09.636894
+2025-05-05 14:38:09,748 [ERROR] [Thread-5 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 14:38:09,864 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\hvu.LBMX\.config\yasb
+2025-05-05 14:38:09,978 [INFO] [Dummy-8] [root/event_listener.py:53]: Created named pipe yasb-17e2a4da-29e0-11f0-ba63-98597a36505a
+2025-05-05 14:38:10,034 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-05 14:38:10,036 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-05 14:38:10,352 [INFO] [Dummy-8] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-17e2a4da-29e0-11f0-ba63-98597a36505a
+2025-05-05 14:38:43,085 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-05 14:38:43,190 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-05 14:38:43,190 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-05 14:38:43,212 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-05 14:38:43,238 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-05 14:38:43,238 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-05 14:38:43,497 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-05-05 14:38:43,497 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\hvu.LBMX\.config\yasb\.env, skipping environment loading.
+2025-05-05 14:38:43,641 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-05-05 14:38:43,641 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-05 14:38:43,837 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-05 14:38:44,205 [INFO] [Thread-3 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 14:38:44.205978
+2025-05-05 14:38:44,222 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-05 14:38:44,519 [ERROR] [Thread-3 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 14:38:44,677 [INFO] [Thread-4 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 14:38:44.677127
+2025-05-05 14:38:44,762 [ERROR] [Thread-4 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 14:38:45,023 [INFO] [Thread-5 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 14:38:45.023117
+2025-05-05 14:38:45,128 [ERROR] [Thread-5 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 14:38:45,202 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\hvu.LBMX\.config\yasb
+2025-05-05 14:38:45,269 [INFO] [Dummy-8] [root/event_listener.py:53]: Created named pipe yasb-2cf31489-29e0-11f0-8b20-98597a36505a
+2025-05-05 14:38:45,313 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-05 14:38:45,315 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-05 14:38:45,424 [INFO] [Dummy-8] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-2cf31489-29e0-11f0-8b20-98597a36505a
+2025-05-05 14:46:23,485 [WARNING] [MainThread] [root/weather.py:172]: Could not load day0 icon
+2025-05-05 14:46:23,486 [WARNING] [MainThread] [root/weather.py:193]: Could not load day1 icon
+2025-05-05 14:46:23,486 [WARNING] [MainThread] [root/weather.py:213]: Could not load day2 icon
+2025-05-05 14:48:44,200 [INFO] [Thread-13 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 14:48:44.200500
+2025-05-05 14:48:44,411 [ERROR] [Thread-13 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 14:48:44,677 [INFO] [Thread-14 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 14:48:44.677884
+2025-05-05 14:48:44,747 [ERROR] [Thread-14 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 14:48:45,028 [INFO] [Thread-15 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 14:48:45.028183
+2025-05-05 14:48:45,096 [ERROR] [Thread-15 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 14:58:44,202 [INFO] [Thread-16 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 14:58:44.202518
+2025-05-05 14:58:44,428 [ERROR] [Thread-16 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 14:58:44,676 [INFO] [Thread-17 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 14:58:44.676339
+2025-05-05 14:58:44,743 [ERROR] [Thread-17 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 14:58:45,033 [INFO] [Thread-18 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 14:58:45.033030
+2025-05-05 14:58:45,154 [ERROR] [Thread-18 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 15:04:12,925 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-05 15:04:13,037 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-05 15:04:13,037 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-05 15:04:13,071 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-05 15:04:13,084 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-05 15:04:13,084 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-05 15:04:16,014 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-05-05 15:04:16,015 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\hvu.LBMX\.config\yasb\.env, skipping environment loading.
+2025-05-05 15:04:16,067 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-05-05 15:04:16,067 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-05 15:04:18,041 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-05 15:04:23,399 [INFO] [Thread-3 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:04:23.399384
+2025-05-05 15:04:23,495 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-05 15:04:23,649 [ERROR] [Thread-3 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 15:04:24,592 [INFO] [Thread-4 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:04:24.592874
+2025-05-05 15:04:24,663 [ERROR] [Thread-4 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 15:04:24,965 [INFO] [Thread-5 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:04:24.965303
+2025-05-05 15:04:25,051 [ERROR] [Thread-5 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 15:04:25,159 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\hvu.LBMX\.config\yasb
+2025-05-05 15:04:25,184 [INFO] [Dummy-8] [root/event_listener.py:53]: Created named pipe yasb-c2d5b88e-29e3-11f0-b674-98597a36505a
+2025-05-05 15:04:25,270 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-05 15:04:25,271 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-05 15:04:25,417 [INFO] [Dummy-8] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-c2d5b88e-29e3-11f0-b674-98597a36505a
+2025-05-05 15:04:51,390 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-05 15:04:51,501 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-05 15:04:51,501 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-05 15:04:51,514 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-05 15:04:51,517 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-05 15:04:51,517 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-05 15:04:51,788 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-05-05 15:04:51,788 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\hvu.LBMX\.config\yasb\.env, skipping environment loading.
+2025-05-05 15:04:51,909 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-05-05 15:04:51,910 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-05 15:04:52,141 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-05 15:04:52,562 [INFO] [Thread-3 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:04:52.562789
+2025-05-05 15:04:52,581 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-05 15:04:52,785 [ERROR] [Thread-3 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 15:04:53,167 [INFO] [Thread-4 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:04:53.167952
+2025-05-05 15:04:53,267 [ERROR] [Thread-4 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 15:04:53,615 [INFO] [Thread-5 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:04:53.615749
+2025-05-05 15:04:53,718 [ERROR] [Thread-5 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 15:04:53,877 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\hvu.LBMX\.config\yasb
+2025-05-05 15:04:53,896 [INFO] [Dummy-8] [root/event_listener.py:53]: Created named pipe yasb-d3f3b40d-29e3-11f0-b817-98597a36505a
+2025-05-05 15:04:54,007 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-05 15:04:54,007 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-05 15:04:54,098 [INFO] [Dummy-8] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-d3f3b40d-29e3-11f0-b817-98597a36505a
+2025-05-05 15:05:52,901 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-05 15:05:53,013 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-05 15:05:53,013 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-05 15:05:53,040 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-05 15:05:53,060 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-05 15:05:53,061 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-05 15:05:53,315 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-05-05 15:05:53,315 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\hvu.LBMX\.config\yasb\.env, skipping environment loading.
+2025-05-05 15:05:53,449 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-05-05 15:05:53,450 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-05 15:05:53,663 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-05 15:05:54,084 [INFO] [Thread-3 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:05:54.084390
+2025-05-05 15:05:54,099 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-05 15:05:54,398 [ERROR] [Thread-3 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 15:05:54,680 [INFO] [Thread-4 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:05:54.680893
+2025-05-05 15:05:54,761 [ERROR] [Thread-4 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 15:05:55,090 [INFO] [Thread-5 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:05:55.090859
+2025-05-05 15:05:55,200 [ERROR] [Thread-5 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 15:05:55,331 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\hvu.LBMX\.config\yasb
+2025-05-05 15:05:55,438 [INFO] [Dummy-8] [root/event_listener.py:53]: Created named pipe yasb-f894f5ac-29e3-11f0-b264-98597a36505a
+2025-05-05 15:05:55,480 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-05 15:05:55,480 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-05 15:05:55,604 [INFO] [Dummy-8] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-f894f5ac-29e3-11f0-b264-98597a36505a
+2025-05-05 15:05:59,083 [WARNING] [MainThread] [root/weather.py:172]: Could not load day0 icon
+2025-05-05 15:05:59,083 [WARNING] [MainThread] [root/weather.py:193]: Could not load day1 icon
+2025-05-05 15:05:59,083 [WARNING] [MainThread] [root/weather.py:213]: Could not load day2 icon
+2025-05-05 15:07:45,720 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-05 15:07:45,822 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-05 15:07:45,822 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-05 15:07:45,951 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-05 15:07:45,966 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-05 15:07:45,967 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-05 15:07:48,880 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-05-05 15:07:48,880 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\hvu.LBMX\.config\yasb\.env, skipping environment loading.
+2025-05-05 15:07:48,935 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-05-05 15:07:48,935 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-05 15:07:51,151 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-05 15:07:56,753 [INFO] [Thread-3 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:07:56.753690
+2025-05-05 15:07:56,803 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-05 15:07:57,860 [INFO] [Thread-4 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:07:57.860150
+2025-05-05 15:07:58,261 [INFO] [Thread-5 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:07:58.261056
+2025-05-05 15:07:58,505 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\hvu.LBMX\.config\yasb
+2025-05-05 15:07:58,619 [INFO] [Dummy-8] [root/event_listener.py:53]: Created named pipe yasb-41ffcf7c-29e4-11f0-85bc-98597a36505a
+2025-05-05 15:07:58,679 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-05 15:07:58,680 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-05 15:07:59,541 [INFO] [Dummy-8] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-41ffcf7c-29e4-11f0-85bc-98597a36505a
+2025-05-05 15:10:59,404 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-05 15:10:59,513 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-05 15:10:59,513 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-05 15:10:59,545 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-05 15:10:59,565 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-05 15:10:59,565 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-05 15:10:59,811 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-05-05 15:10:59,813 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\hvu.LBMX\.config\yasb\.env, skipping environment loading.
+2025-05-05 15:10:59,930 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-05-05 15:10:59,931 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-05 15:11:00,179 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-05 15:11:00,551 [INFO] [Thread-3 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:11:00.551155
+2025-05-05 15:11:00,568 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-05 15:11:01,037 [INFO] [Thread-4 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:11:01.037620
+2025-05-05 15:11:01,413 [INFO] [Thread-5 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:11:01.413143
+2025-05-05 15:11:01,607 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\hvu.LBMX\.config\yasb
+2025-05-05 15:11:01,630 [INFO] [Dummy-8] [root/event_listener.py:53]: Created named pipe yasb-af230110-29e4-11f0-b679-98597a36505a
+2025-05-05 15:11:01,720 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-05 15:11:01,722 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-05 15:11:02,496 [INFO] [Dummy-8] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-af230110-29e4-11f0-b679-98597a36505a
+2025-05-05 15:11:22,452 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-05 15:11:22,562 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-05 15:11:22,562 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-05 15:11:22,602 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-05 15:11:22,612 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-05 15:11:22,613 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-05 15:11:22,890 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-05-05 15:11:22,890 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\hvu.LBMX\.config\yasb\.env, skipping environment loading.
+2025-05-05 15:11:23,029 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-05-05 15:11:23,030 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-05 15:11:23,248 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-05 15:11:23,644 [INFO] [Thread-3 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:11:23.644604
+2025-05-05 15:11:23,657 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-05 15:11:24,102 [INFO] [Thread-4 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:11:24.102278
+2025-05-05 15:11:24,465 [INFO] [Thread-5 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:11:24.465911
+2025-05-05 15:11:24,655 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\hvu.LBMX\.config\yasb
+2025-05-05 15:11:24,744 [INFO] [Dummy-8] [root/event_listener.py:53]: Created named pipe yasb-bcdfae8c-29e4-11f0-8de2-98597a36505a
+2025-05-05 15:11:24,786 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-05 15:11:24,786 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-05 15:11:25,632 [INFO] [Dummy-8] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-bcdfae8c-29e4-11f0-8de2-98597a36505a
+2025-05-05 15:12:23,043 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-05 15:12:23,157 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-05 15:12:23,157 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-05 15:12:23,203 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-05 15:12:23,227 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-05 15:12:23,228 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-05 15:12:23,472 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-05-05 15:12:23,473 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\hvu.LBMX\.config\yasb\.env, skipping environment loading.
+2025-05-05 15:12:23,597 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-05-05 15:12:23,597 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-05 15:12:23,804 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-05 15:12:24,181 [INFO] [Thread-3 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:12:24.181186
+2025-05-05 15:12:24,199 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-05 15:12:24,741 [INFO] [Thread-4 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:12:24.741344
+2025-05-05 15:12:25,130 [INFO] [Thread-5 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:12:25.130075
+2025-05-05 15:12:25,310 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\hvu.LBMX\.config\yasb
+2025-05-05 15:12:25,441 [INFO] [Dummy-8] [root/event_listener.py:53]: Created named pipe yasb-e10703a1-29e4-11f0-8218-98597a36505a
+2025-05-05 15:12:25,476 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-05 15:12:25,478 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-05 15:12:26,077 [INFO] [Dummy-8] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-e10703a1-29e4-11f0-8218-98597a36505a
+2025-05-05 15:21:02,228 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-05 15:21:02,343 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-05 15:21:02,343 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-05 15:21:02,379 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-05 15:21:02,391 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-05 15:21:02,392 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-05 15:21:04,356 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-05-05 15:21:04,356 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\hvu.LBMX\.config\yasb\.env, skipping environment loading.
+2025-05-05 15:21:04,391 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-05-05 15:21:04,391 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-05 15:21:04,809 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-05 15:21:07,912 [ERROR] [Thread-6 (_get_github_data)] [root/github.py:396]: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-05-05 15:21:07,957 [INFO] [Thread-7 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:21:07.957562
+2025-05-05 15:21:07,986 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-05 15:21:08,429 [ERROR] [Thread-8 (_get_github_data)] [root/github.py:396]: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-05-05 15:21:08,452 [INFO] [Thread-9 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:21:08.452006
+2025-05-05 15:21:08,918 [ERROR] [Thread-10 (_get_github_data)] [root/github.py:396]: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-05-05 15:21:09,052 [INFO] [Thread-11 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:21:09.052596
+2025-05-05 15:21:09,079 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\hvu.LBMX\.config\yasb
+2025-05-05 15:21:09,101 [INFO] [Dummy-14] [root/event_listener.py:53]: Created named pipe yasb-1937ce97-29e6-11f0-9766-98597a36505a
+2025-05-05 15:21:09,198 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-05 15:21:09,219 [DEBUG] [Dummy-17] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-05 15:21:09,502 [INFO] [Dummy-14] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-1937ce97-29e6-11f0-9766-98597a36505a
+2025-05-05 15:22:07,883 [ERROR] [Thread-19 (_get_github_data)] [root/github.py:396]: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-05-05 15:22:08,370 [ERROR] [Thread-20 (_get_github_data)] [root/github.py:396]: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-05-05 15:22:08,903 [ERROR] [Thread-21 (_get_github_data)] [root/github.py:396]: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-05-05 15:23:11,342 [ERROR] [Thread-24 (_get_github_data)] [root/github.py:396]: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-05-05 15:23:11,361 [ERROR] [Thread-22 (_get_github_data)] [root/github.py:396]: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-05-05 15:23:11,362 [ERROR] [Thread-23 (_get_github_data)] [root/github.py:396]: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-05-05 15:24:07,922 [ERROR] [Thread-25 (_get_github_data)] [root/github.py:396]: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-05-05 15:24:08,512 [ERROR] [Thread-26 (_get_github_data)] [root/github.py:396]: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-05-05 15:24:08,917 [ERROR] [Thread-27 (_get_github_data)] [root/github.py:396]: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-05-05 15:25:41,102 [ERROR] [Thread-28 (_get_github_data)] [root/github.py:396]: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-05-05 15:25:41,103 [ERROR] [Thread-29 (_get_github_data)] [root/github.py:396]: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-05-05 15:25:41,121 [ERROR] [Thread-30 (_get_github_data)] [root/github.py:396]: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-05-05 15:25:41,830 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-05 15:25:41,931 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-05 15:25:41,931 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-05 15:26:07,876 [ERROR] [Thread-31 (_get_github_data)] [root/github.py:396]: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-05-05 15:26:08,390 [ERROR] [Thread-32 (_get_github_data)] [root/github.py:396]: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-05-05 15:26:08,905 [ERROR] [Thread-33 (_get_github_data)] [root/github.py:396]: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-05-05 15:27:07,895 [ERROR] [Thread-34 (_get_github_data)] [root/github.py:396]: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-05-05 15:27:08,397 [ERROR] [Thread-35 (_get_github_data)] [root/github.py:396]: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-05-05 15:27:08,906 [ERROR] [Thread-36 (_get_github_data)] [root/github.py:396]: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-05-05 15:28:14,588 [ERROR] [Thread-39 (_get_github_data)] [root/github.py:396]: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-05-05 15:28:14,608 [ERROR] [Thread-37 (_get_github_data)] [root/github.py:396]: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-05-05 15:28:14,622 [ERROR] [Thread-38 (_get_github_data)] [root/github.py:396]: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-05-05 15:28:19,070 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-05 15:28:19,079 [DEBUG] [Dummy-17] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-05 15:28:19,080 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-05 15:28:21,883 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-05-05 15:28:21,884 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\hvu.LBMX\.config\yasb\.env, skipping environment loading.
+2025-05-05 15:28:24,077 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-05-05 15:28:24,077 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-05 15:28:24,764 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-05 15:28:30,901 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-05 15:28:31,159 [INFO] [Thread-3 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:28:31.159521
+2025-05-05 15:28:31,373 [ERROR] [Thread-3 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 15:28:32,526 [ERROR] [Thread-4 (_get_github_data)] [root/github.py:396]: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-05-05 15:28:33,643 [INFO] [Thread-5 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:28:33.643925
+2025-05-05 15:28:33,693 [ERROR] [Thread-5 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 15:28:33,764 [ERROR] [Thread-6 (_get_github_data)] [root/github.py:396]: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-05-05 15:28:33,834 [INFO] [Thread-7 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:28:33.834462
+2025-05-05 15:28:33,892 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\hvu.LBMX\.config\yasb
+2025-05-05 15:28:33,903 [INFO] [Dummy-11] [root/event_listener.py:53]: Created named pipe yasb-2258d667-29e7-11f0-a97e-98597a36505a
+2025-05-05 15:28:33,920 [ERROR] [Thread-7 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 15:28:33,924 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-05 15:28:33,926 [DEBUG] [Dummy-14] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-05 15:28:33,953 [ERROR] [Thread-8 (_get_github_data)] [root/github.py:396]: HTTP Error occurred: 401 - {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+2025-05-05 15:28:34,053 [INFO] [Dummy-11] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-2258d667-29e7-11f0-a97e-98597a36505a
+2025-05-05 15:29:24,178 [WARNING] [Dummy-11] [root/event_listener.py:84]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-05-05 15:29:24,178 [INFO] [Dummy-11] [root/event_listener.py:94]: Attempting to reconnect to Komorebi...
+2025-05-05 15:29:27,179 [INFO] [Dummy-11] [root/event_listener.py:53]: Created named pipe yasb-2258d667-29e7-11f0-a97e-98597a36505a
+2025-05-05 15:32:02,734 [DEBUG] [MainThread] [root/blurWindow.py:116]: Failed to apply settings: invalid literal for int() with base 16: ''
+2025-05-05 15:32:54,719 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-05 15:32:54,831 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-05 15:32:54,832 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-05 15:32:54,866 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-05 15:32:54,881 [DEBUG] [Dummy-14] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-05 15:32:54,882 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-05 15:32:54,884 [ERROR] [Dummy-99] [root/event_service.py:30]: Failed to emit signal <bound PYQT_SIGNAL window_name_change of ActiveWindowWidget object at 0x0000014CD63B4B90>. Removing link to WinEvent.EventObjectNameChange.
+2025-05-05 15:32:55,147 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-05-05 15:32:55,147 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\hvu.LBMX\.config\yasb\.env, skipping environment loading.
+2025-05-05 15:32:55,249 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-05-05 15:32:55,249 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-05 15:32:55,499 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-05 15:32:56,139 [INFO] [Thread-3 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:32:56.139191
+2025-05-05 15:32:56,154 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-05 15:32:56,429 [ERROR] [Thread-3 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 15:32:56,872 [INFO] [Thread-4 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:32:56.872866
+2025-05-05 15:32:56,936 [ERROR] [Thread-4 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 15:32:57,539 [INFO] [Thread-5 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:32:57.539038
+2025-05-05 15:32:57,618 [ERROR] [Thread-5 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 15:32:57,701 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\hvu.LBMX\.config\yasb
+2025-05-05 15:32:57,748 [INFO] [Dummy-8] [root/event_listener.py:53]: Created named pipe yasb-bf96e429-29e7-11f0-938c-98597a36505a
+2025-05-05 15:32:57,772 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-05 15:32:57,773 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-05 15:33:14,133 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-05 15:33:14,245 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-05 15:33:14,245 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-05 15:33:14,277 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-05 15:33:14,290 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-05 15:33:14,290 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-05 15:33:14,553 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-05-05 15:33:14,553 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\hvu.LBMX\.config\yasb\.env, skipping environment loading.
+2025-05-05 15:33:14,669 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-05-05 15:33:14,669 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-05 15:33:14,860 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-05 15:33:15,349 [INFO] [Thread-3 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:33:15.349219
+2025-05-05 15:33:15,368 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-05 15:33:15,541 [ERROR] [Thread-3 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 15:33:15,908 [INFO] [Thread-4 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:33:15.908807
+2025-05-05 15:33:16,034 [ERROR] [Thread-4 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 15:33:16,438 [INFO] [Thread-5 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:33:16.438609
+2025-05-05 15:33:16,517 [ERROR] [Thread-5 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 15:33:16,686 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\hvu.LBMX\.config\yasb
+2025-05-05 15:33:16,731 [INFO] [Dummy-8] [root/event_listener.py:53]: Created named pipe yasb-cae7dae9-29e7-11f0-8dd4-98597a36505a
+2025-05-05 15:33:16,748 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-05 15:33:16,758 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-05 15:33:27,778 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-05 15:33:27,880 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-05 15:33:27,880 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-05 15:33:27,899 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-05 15:33:27,915 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-05 15:33:27,915 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-05 15:33:28,163 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-05-05 15:33:28,163 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\hvu.LBMX\.config\yasb\.env, skipping environment loading.
+2025-05-05 15:33:28,285 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-05-05 15:33:28,286 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-05 15:33:28,458 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-05 15:33:28,922 [INFO] [Thread-3 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:33:28.922860
+2025-05-05 15:33:28,941 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-05 15:33:29,197 [ERROR] [Thread-3 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 15:33:29,481 [INFO] [Thread-4 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:33:29.481658
+2025-05-05 15:33:29,591 [ERROR] [Thread-4 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 15:33:29,963 [INFO] [Thread-5 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:33:29.963688
+2025-05-05 15:33:30,048 [ERROR] [Thread-5 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 15:33:30,139 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\hvu.LBMX\.config\yasb
+2025-05-05 15:33:30,182 [INFO] [Dummy-8] [root/event_listener.py:53]: Created named pipe yasb-d2eca710-29e7-11f0-9d75-98597a36505a
+2025-05-05 15:33:30,208 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-05 15:33:30,208 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-05 15:33:44,403 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-05 15:33:44,510 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-05 15:33:44,510 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-05 15:33:44,571 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-05 15:33:44,580 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-05 15:33:44,580 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-05 15:33:44,846 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-05-05 15:33:44,846 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\hvu.LBMX\.config\yasb\.env, skipping environment loading.
+2025-05-05 15:33:44,946 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-05-05 15:33:44,946 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-05 15:33:45,128 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-05 15:33:45,603 [INFO] [Thread-3 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:33:45.603307
+2025-05-05 15:33:45,618 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-05 15:33:45,850 [ERROR] [Thread-3 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 15:33:46,168 [INFO] [Thread-4 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:33:46.168487
+2025-05-05 15:33:46,246 [ERROR] [Thread-4 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 15:33:46,632 [INFO] [Thread-5 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:33:46.632471
+2025-05-05 15:33:46,721 [ERROR] [Thread-5 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 15:33:46,813 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\hvu.LBMX\.config\yasb
+2025-05-05 15:33:46,850 [INFO] [Dummy-8] [root/event_listener.py:53]: Created named pipe yasb-dcdcefb3-29e7-11f0-b577-98597a36505a
+2025-05-05 15:33:46,882 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-05 15:33:46,883 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-05 15:34:00,075 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-05 15:34:00,180 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-05 15:34:00,180 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-05 15:34:00,216 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-05 15:34:00,226 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-05 15:34:00,227 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-05 15:34:00,484 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-05-05 15:34:00,485 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\hvu.LBMX\.config\yasb\.env, skipping environment loading.
+2025-05-05 15:34:00,599 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-05-05 15:34:00,599 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-05 15:34:00,782 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-05 15:34:01,238 [INFO] [Thread-3 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:34:01.238401
+2025-05-05 15:34:01,258 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-05 15:34:01,472 [ERROR] [Thread-3 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 15:34:01,768 [INFO] [Thread-4 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:34:01.768200
+2025-05-05 15:34:01,868 [ERROR] [Thread-4 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 15:34:02,211 [INFO] [Thread-5 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:34:02.211081
+2025-05-05 15:34:02,292 [ERROR] [Thread-5 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 15:34:02,379 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\hvu.LBMX\.config\yasb
+2025-05-05 15:34:02,427 [INFO] [Dummy-8] [root/event_listener.py:53]: Created named pipe yasb-e624094f-29e7-11f0-a444-98597a36505a
+2025-05-05 15:34:02,453 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-05 15:34:02,455 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-05 15:34:08,103 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-05 15:34:08,213 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-05 15:34:08,213 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-05 15:34:08,239 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-05 15:34:08,262 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-05 15:34:08,262 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-05 15:34:08,508 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-05-05 15:34:08,508 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\hvu.LBMX\.config\yasb\.env, skipping environment loading.
+2025-05-05 15:34:08,629 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-05-05 15:34:08,629 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-05 15:34:08,821 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-05 15:34:09,255 [INFO] [Thread-3 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:34:09.248261
+2025-05-05 15:34:09,271 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-05 15:34:09,464 [ERROR] [Thread-3 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 15:34:09,768 [INFO] [Thread-4 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:34:09.768494
+2025-05-05 15:34:09,839 [ERROR] [Thread-4 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 15:34:10,217 [INFO] [Thread-5 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:34:10.217903
+2025-05-05 15:34:10,299 [ERROR] [Thread-5 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 15:34:10,374 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\hvu.LBMX\.config\yasb
+2025-05-05 15:34:10,423 [INFO] [Dummy-8] [root/event_listener.py:53]: Created named pipe yasb-eae7d2f9-29e7-11f0-8650-98597a36505a
+2025-05-05 15:34:10,449 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-05 15:34:10,449 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-05 15:36:06,966 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-05 15:36:07,080 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-05 15:36:07,080 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-05 15:36:08,291 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-05 15:36:08,311 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-05 15:36:08,313 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-05 15:36:10,846 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-05-05 15:36:10,846 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\hvu.LBMX\.config\yasb\.env, skipping environment loading.
+2025-05-05 15:36:10,908 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-05-05 15:36:10,908 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-05 15:36:12,796 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-05 15:36:17,897 [INFO] [Thread-3 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:36:17.897030
+2025-05-05 15:36:17,980 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-05-05 15:36:18,131 [ERROR] [Thread-3 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 15:36:19,136 [INFO] [Thread-4 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:36:19.136678
+2025-05-05 15:36:19,200 [ERROR] [Thread-4 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 15:36:19,798 [INFO] [Thread-5 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:36:19.798583
+2025-05-05 15:36:19,891 [ERROR] [Thread-5 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 15:36:19,995 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\hvu.LBMX\.config\yasb
+2025-05-05 15:36:20,036 [INFO] [Dummy-8] [root/event_listener.py:53]: Created named pipe yasb-382a9bb3-29e8-11f0-954c-98597a36505a
+2025-05-05 15:36:20,086 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-05 15:36:20,086 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-05 15:38:19,082 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-05 15:38:19,194 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-05 15:38:19,194 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-05 15:38:19,305 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-05 15:38:19,324 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-05 15:38:19,325 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-05 15:38:22,137 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-05-05 15:38:22,137 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\hvu.LBMX\.config\yasb\.env, skipping environment loading.
+2025-05-05 15:38:22,185 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-05-05 15:38:22,185 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-05 15:38:23,846 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-05 15:38:28,585 [INFO] [Thread-3 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:38:28.585301
+2025-05-05 15:38:28,868 [ERROR] [Thread-3 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 15:38:29,153 [INFO] [Thread-4 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:38:29.153973
+2025-05-05 15:38:29,241 [ERROR] [Thread-4 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 15:38:29,777 [INFO] [Thread-5 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:38:29.777171
+2025-05-05 15:38:29,881 [ERROR] [Thread-5 (_get_weather_data)] [root/weather.py:453]: Error fetching weather data: HTTP Error 403: Forbidden
+2025-05-05 15:38:29,960 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\hvu.LBMX\.config\yasb
+2025-05-05 15:38:30,021 [INFO] [Dummy-8] [root/event_listener.py:53]: Created named pipe yasb-85a1c551-29e8-11f0-8d5b-98597a36505a
+2025-05-05 15:38:30,071 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-05 15:38:30,074 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-05 15:38:56,069 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-05 15:38:56,177 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-05 15:38:56,177 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-05 15:38:56,195 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-05 15:38:56,209 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-05 15:38:56,209 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-05 15:38:56,471 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-05-05 15:38:56,471 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\hvu.LBMX\.config\yasb\.env, skipping environment loading.
+2025-05-05 15:38:56,593 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-05-05 15:38:56,593 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-05 15:38:56,764 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-05 15:38:57,196 [INFO] [Thread-3 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:38:57.196063
+2025-05-05 15:38:57,699 [INFO] [Thread-4 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:38:57.699116
+2025-05-05 15:38:58,160 [INFO] [Thread-5 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:38:58.160181
+2025-05-05 15:38:58,324 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\hvu.LBMX\.config\yasb
+2025-05-05 15:38:58,377 [INFO] [Dummy-8] [root/event_listener.py:53]: Created named pipe yasb-968980c3-29e8-11f0-a123-98597a36505a
+2025-05-05 15:38:58,402 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-05 15:38:58,404 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-05 15:39:19,276 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-05 15:39:19,395 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-05 15:39:19,395 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-05 15:39:19,424 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-05 15:39:19,442 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-05 15:39:19,443 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-05 15:39:19,702 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-05-05 15:39:19,702 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\hvu.LBMX\.config\yasb\.env, skipping environment loading.
+2025-05-05 15:39:19,814 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-05-05 15:39:19,819 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-05 15:39:19,994 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-05 15:39:20,465 [INFO] [Thread-3 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:39:20.465203
+2025-05-05 15:39:21,044 [INFO] [Thread-4 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:39:21.044724
+2025-05-05 15:39:21,605 [INFO] [Thread-5 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:39:21.605054
+2025-05-05 15:39:21,798 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\hvu.LBMX\.config\yasb
+2025-05-05 15:39:21,857 [INFO] [Dummy-8] [root/event_listener.py:53]: Created named pipe yasb-a4876faa-29e8-11f0-a7e3-98597a36505a
+2025-05-05 15:39:21,878 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-05 15:39:21,884 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:192]: Thread started
+2025-05-05 15:40:15,714 [INFO] [MainThread] [root/controller.py:12]: Reloading Application because of config update...
+2025-05-05 15:40:15,824 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-05-05 15:40:15,824 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-05-05 15:40:15,854 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:218]: Stopping worker thread...
+2025-05-05 15:40:15,875 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:201]: Exiting thread
+2025-05-05 15:40:15,875 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:75]: Closing
+2025-05-05 15:40:16,133 [INFO] [MainThread] [root/log.py:59]: Yasb v1.7.1
+2025-05-05 15:40:16,133 [INFO] [MainThread] [root/env_loader.py:22]: No env file found at C:\Users\hvu.LBMX\.config\yasb\.env, skipping environment loading.
+2025-05-05 15:40:16,242 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.0
+2025-05-05 15:40:16,242 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-05-05 15:40:16,420 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-05-05 15:40:16,914 [INFO] [Thread-3 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:40:16.914283
+2025-05-05 15:40:17,519 [INFO] [Thread-4 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:40:17.519242
+2025-05-05 15:40:18,005 [INFO] [Thread-5 (_get_weather_data)] [root/weather.py:349]: Fetched new weather data at 2025-05-05 15:40:18.005713
+2025-05-05 15:40:18,159 [INFO] [MainThread] [root/watcher.py:55]: Created file watcher for path C:\Users\hvu.LBMX\.config\yasb
+2025-05-05 15:40:18,224 [INFO] [Dummy-8] [root/event_listener.py:53]: Created named pipe yasb-c61f7873-29e8-11f0-9d65-98597a36505a
+2025-05-05 15:40:18,254 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:213]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-05-05 15:40:18,254 [DEBUG] [Dummy-11] [qasync._windows._EventWorker/_windows.py:192]: Thread started
