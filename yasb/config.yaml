@@ -300,7 +300,7 @@ widgets:
       api_key: "8cea56a621ab4046831190643250505"
       update_interval: 600
       hide_decimal: true
-      location: "London, ON, Canada"
+      location: "London, Ontario, Canada"
       callbacks:
         on_left: "toggle_card"
         on_right: "toggle_label"
