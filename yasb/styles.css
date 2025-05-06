@@ -71,6 +71,10 @@ QToolTip {
 }
 
 /* WIFI Setting */
+.wifi-widget {
+    padding-left: 2px;
+}
+
 .wifi-widget .icon{
     color: var(--mauve) !important;
 }
@@ -366,16 +370,12 @@ QToolTip {
 
 /* VOLUMEN Settings */
 .volume-widget {
-    padding-right: 0;
-}
-.volume-widget .widget-container{
-    border-bottom-right-radius: 0;
-    border-top-right-radius: 0;
+    padding-right: 2px;
 }
 .volume-widget .icon {
     color: var(--mauve);
     margin-right: 4px;
-} 
+}
 .volume-slider {
     border: none;
 }
@@ -395,12 +395,12 @@ QToolTip {
 }
 
 .audio-menu {
-    background-color:var(--crust); 
+    background-color: var(--crust); 
 }
 .audio-container .device {
-    background-color:transparent;
+    background-color: transparent;
     border: none;
-    padding:6px 8px 6px 4px;
+    padding: 6px 8px 6px 4px;
     margin: 2px 0;
     font-size: 12px;
     border-radius: 4px;
@@ -538,8 +538,8 @@ QToolTip {
     padding: 0px;
 	padding-left: 8px;
 	font-size: 12px;
-    max-width: 220px;
-    min-width: 220px;
+    max-width: 160px;
+    min-width: 160px;
 }
 .media-widget .btn {
 	color: var(--mauve);
