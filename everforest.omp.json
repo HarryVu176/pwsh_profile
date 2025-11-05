@@ -36,7 +36,7 @@
           "trailing_diamond": "",
           "template": "  {{ .Path }} ",
           "properties": {
-            "style": "agnoster_short"
+            "style": "full"
           },
           "style": "diamond",
           "type": "path"
@@ -127,3 +127,4 @@
   "version": 3,
   "final_space": true
 }
+
